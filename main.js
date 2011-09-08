@@ -182,9 +182,9 @@ function check_network2() {
 	};
     navigator.compass.getCurrentHeading(onSuccess, onError);*/
 
-    document.getElementById("accel-data").innerHTML += "<img id='div2' src='../img/left.png' alt='Angry face' onclick='teste2();'/>\n";
-    document.getElementById("accel-data").innerHTML = "<img id='div1' src='../img/eu.jpg' alt='Angry face' />\n";
-    document.getElementById("accel-data").innerHTML += "<img id='div2' src='../img/right.png' alt='Angry face' onclick='teste();'/>\n";
+    document.getElementById("accel-data").innerHTML += "<img id='div2' src='./img/left.png' alt='Angry face' onclick='teste2();'/>\n";
+    document.getElementById("accel-data").innerHTML = "<img id='div1' src='./img/eu.jpg' alt='Angry face' />\n";
+    document.getElementById("accel-data").innerHTML += "<img id='div2' src='./img/right.png' alt='Angry face' onclick='teste();'/>\n";
     
     
     
